@@ -1,1 +1,72 @@
-<p>country works!</p>
+<h2><span>Country</span> Statistics</h2>
+<div class="row">
+<div class="container-fluid" style="margin-left: 30px;">
+    <div class="row">
+        <div *ngIf="info">
+            <div class="col-md-12">
+            <div class="card mt-5 mb-5">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-10">
+                            <h3 class="card-title">
+                                <a>
+                                    <h1>{{info.country}}</h1>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="col-md-1">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Active:</h6>
+                            <p>{{info.active | number}}</p>
+                        </div>
+                        <div class="col-md-3">
+
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Cases:</h6>
+                            <p>{{info.cases | number}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Today:</h6>
+                            <p>{{info.todayCases | number}}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Deaths:</h6>
+                            <p>{{info.deaths | number}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Deaths Today:</h6>
+                            <p>{{info.todayDeaths | number}}</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Recovered:</h6>
+                            <p>{{info.recovered | number}}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Critical</h6>
+                            <p>{{info.critical | number}}</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+</div>
