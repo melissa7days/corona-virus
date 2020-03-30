@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+
+app-top-nav .navbar{
+    background-color: #363636 !important;
+    text-align: center;
+}
+app-top-nav .nav-item a{
+    color: #fff !important;
+    text-align: center !important;
+    font-family: 'Cinzel', serif;
+    margin-left: 20px;
+}
+app-top-nav .nav-item a:hover{
+    color: rgb(136, 0, 0) !important;
+    border-bottom: 2px solid rgb(136, 0, 0);
+}
