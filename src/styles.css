@@ -1,6 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -32,7 +33,7 @@ app-top-nav .navbar{
 app-top-nav .nav-item a{
     color: #fff !important;
     text-align: center !important;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     margin-left: 20px;
 }
 app-top-nav .nav-item a:hover{
@@ -40,44 +41,49 @@ app-top-nav .nav-item a:hover{
     border-bottom: 2px solid rgb(136, 0, 0);
 }
 app-country h1{
-    
+    min-width: 100%;
     text-shadow: 10px 10px 10px #000000;
     color: rgb(136, 0, 0);
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     font-size: 25px;
     text-align: center;
     font-weight: 800;
 }
 app-country h3{
+    min-width: 100%;
    margin-bottom: 30px !important;
 }
 app-country h6{
     color: #fff;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     font-size: 18px;
     text-align: center;
     text-shadow: 10px 10px 10px #000000;
     font-weight: 500;
+    min-width: 100%;
 }
 app-country p{
     color: #fff;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
+    min-width: 100%;
 }
 app-country .card{ 
-    background-color: rgba(0,0,0,0.8);
-
-    width: 40rem; 
+    background-color: rgba(109, 109, 109, 0.8);
+    min-width: 100%;
+     
     border: none !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
 }
 app-country .card:hover{
-        box-shadow: 6px 16px 28px rgb(136, 0, 0);
-       -webkit-transition:  box-shadow .6s ease-in;
+    min-width: 100%;
+    box-shadow: 6px 16px 28px rgb(136, 0, 0);
+    -webkit-transition:  box-shadow .6s ease-in;
 }
 
 app-country .form-group input{
+    min-width: 100%;
     background-color: #212326 !important; 
     color: gray !important; 
     border: none !important; 
@@ -96,130 +102,220 @@ app-country .form-group input{
     text-shadow: 5px 5px 5px #353635;
 }
 app-country .form-group input:hover{
+    min-width: 100%;
     box-shadow: 1px 8px 20px rgb(136, 0, 0);
    -webkit-transition:  box-shadow .6s ease-in;
 }
 app-country .form-group input:focus{
+    min-width: 100%;
     box-shadow: 1px 8px 20px rgb(136, 0, 0);
    -webkit-transition:  box-shadow .6s ease-in;
 }
 app-country h2{
-    color: #000;
+    min-width: 100%;
+    color: #fff;
     text-align: center;
     margin-top: 140px;
-    font-weight: 500;
-    
     font-size: 55px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     text-shadow: 10px 10px 10px #000000;
 }
 app-country h2 span{
+    min-width: 100%;
     color: rgb(136, 0, 0);
 }
 app-home .heading{
+    min-width: 100%;
     margin-top: -60px;
 }
 app-home h5{
-    color: #000;
+    min-width: 100%;
+    color: #fff;
     text-align: center;
     margin-top: 140px;
-    font-weight: 500;
     margin-bottom: 30px;
     font-size: 55px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     text-shadow: 10px 10px 10px #000000;
 }
 app-home h5 span{
+    min-width: 100%;
     color: rgb(136, 0, 0);
 
 }
 app-home .card{ 
-    background-color: rgba(0,0,0,0.8);
-
-    width: 40rem; 
+    min-width: 100%;
+    background-color: rgba(109, 109, 109, 0.8);
     border: none !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    margin-bottom: 20px;
+    padding: 40px;
 }
 app-home .card:hover{
     box-shadow: 6px 16px 28px rgb(136, 0, 0);
    -webkit-transition:  box-shadow .6s ease-in;
 }
 app-home p{
+    min-width: 100%;
     color: #fff;
-    font-family: 'Cinzel', serif;
-    padding: 40px;
-    margin-bottom: -40px;
+    font-family: 'Gotu', sans-serif;
+    text-align: center;
+}
+app-home h3{
+    min-width: 100%;
+    text-shadow: 10px 10px 10px #000000;
+    color: rgb(136, 0, 0);
+    font-family: 'Gotu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+app-home img{
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 app-home ul.a {
+    min-width: 100%;
     list-style-type: circle;
     color: #fff;
     margin-left: 20px;
     margin-top: -40px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     font-size: 15px;
   }
-app-safety body{
-    background: url("/assets/image/covid4.png") center center fixed;
-    max-width: 100% !important;
-    height: 100% !important;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+ app-home a {
+    background: rgba(white, 0);
+    border-bottom: 1px solid;
+    color: white;
+    line-height: 1.4;
+    padding: .25em;
+    text-decoration: none;
 }
+app-home a:hover {
+      background: rgba(white, 1);
+      color: red;
+}
+
+app-home .btn {
+  color: #fff;
+  cursor: pointer;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  
+  
+  @media(min-width: 600px) {
+      
+    margin: 0 1em 2em;
+
+    
+  }
+  
+  
+}
+app-home .btn-1 {
+  background: darken(red, 1.5%);
+  font-weight: 100;
+}
+app-home svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+  
+app-home rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+
+app-home .btn-1:hover {
+  background: rgba(red, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+app-home rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+ 
+}
+
 app-safety h5{
-    color: #000;
+    min-width: 100%;
+    color: #fff;
     text-align: center;
     margin-top: 140px;
-    font-weight: 500;
     margin-bottom: 30px;
     font-size: 55px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     text-shadow: 10px 10px 10px #000000;
 }
 app-safety h5 span{
+    min-width: 100%;
     color: rgb(136, 0, 0);
-
 }
 app-safety .card{ 
-    background-color: rgba(0,0,0,0.8);
+    min-width: 100%;
+    background-color: rgba(109, 109, 109, 0.8);
     border: none !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
     margin-bottom: 20px;
     padding: 40px;
 }
 app-safety .card:hover{
+    min-width: 100%;
     box-shadow: 6px 16px 28px rgb(136, 0, 0);
    -webkit-transition:  box-shadow .6s ease-in;
 }
 app-safety p{
+    min-width: 100%;
     color: #fff;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     text-align: center;
 }
 app-videos h5{
-    color: #000;
+    min-width: 100%;
+    color: #fff;
     text-align: center;
     margin-top: 140px;
-    font-weight: 500;
     margin-bottom: 30px;
     font-size: 55px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Gotu', sans-serif;
     text-shadow: 10px 10px 10px #000000;
 }
 app-videos h5 span{
+    min-width: 100%;
     color: rgb(136, 0, 0);
     min-width: 100%;
 }
 app-videos img:hover{
+    min-width: 100%;
     box-shadow: 6px 16px 28px rgb(136, 0, 0);
     -webkit-transition:  box-shadow .6s ease-in;
 }
 app-videos img{
+    min-width: 100%;
     margin-bottom: -10px;
 }
 app-videos .card{ 
-    background-color: rgba(0,0,0,0.8);
+    min-width: 100%;
+    background-color: rgba(109, 109, 109, 0.8);
     border: none !important;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
     margin-bottom: 20px;
@@ -229,3 +325,126 @@ app-videos .card:hover{
     box-shadow: 6px 16px 28px rgb(136, 0, 0);
    -webkit-transition:  box-shadow .6s ease-in;
 }
+app-contact .card{ 
+    min-width: 100%;
+    background-color: rgba(109, 109, 109, 0.8);
+    border: none !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    margin-bottom: 20px;
+    padding: 40px;
+}
+app-contact .card:hover{
+    box-shadow: 6px 16px 28px rgb(136, 0, 0);
+   -webkit-transition:  box-shadow .6s ease-in;
+}
+app-contact h5{
+    min-width: 100%;
+    color: #fff;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-family: 'Gotu', sans-serif;
+    text-shadow: 10px 10px 10px #000000;
+}
+app-contact h5 span{
+    min-width: 100%;
+    color: rgb(136, 0, 0);
+    min-width: 100%;
+}
+app-contact h1{
+    min-width: 100%;
+    text-shadow: 10px 10px 10px #000000;
+    color: rgb(136, 0, 0);
+    font-family: 'Gotu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+}
+app-contact p{
+    color: #fff;
+    font-family: 'Gotu', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    min-width: 100%;
+}
+@media (min-width: 576px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 768px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 992px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+ }
+
+@media (max-width: 575.98px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    app-videos .card{
+        min-width: 25%;
+    }
+    app-videos .img{
+        margin-left: -100px;
+    }
+ }

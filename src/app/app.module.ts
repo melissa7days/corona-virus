@@ -9,7 +9,15 @@ import { CountryComponent } from './Components/country/country.component';
 import { HomeComponent } from './Components/home/home.component';
 import { SafetyComponent } from './Components/safety/safety.component';
 import { VideosComponent } from './Components/videos/videos.component';
-
+import { ContactComponent } from './Components/contact/contact.component';
+import { RouterModule, Routes } from '@angular/router';
+const appRoutes: Routes = [
+  { path: '/home', component: HomeComponent },
+  { path: '/country', component: CountryComponent },
+  { path: '/safety', component: SafetyComponent},
+  { path: '/videos', component: VideosComponent},
+  { path: '/contact', component: ContactComponent}
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +25,8 @@ import { VideosComponent } from './Components/videos/videos.component';
     CountryComponent,
     HomeComponent,
     SafetyComponent,
-    VideosComponent
+    VideosComponent,
+    ContactComponent
   ],
   imports: [
     HttpClientModule,
