@@ -16,5 +16,15 @@ export class CountryComponent implements OnInit {
     this.coronaService.getCountryData().subscribe((data)=>{
       this.info = data;
     });
+    this.getGraphStats();
+  }
+  getGraphStats(){
+    fetch("https://pomber.github.io/covid19/timeseries.json")
+  .then(response => response.json())
+  .then(data => {
+    data["South Africa"].forEach(({ date, confirmed, recovered, deaths }) =>
+      console.log(`${date} active cases: ${confirmed - recovered - deaths}`)
+    );
+  });
   }
 }

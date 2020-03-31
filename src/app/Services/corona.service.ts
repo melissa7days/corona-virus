@@ -12,5 +12,5 @@ export class CoronaService {
   getCountryData(){
     return this.http.get(`${this.apiUrl}`);
   }
-  
+
 }
